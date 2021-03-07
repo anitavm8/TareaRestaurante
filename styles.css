@@ -1,0 +1,44 @@
+.container {
+    margin: 0 auto;
+    margin-top: 50 px;
+    width: 1000px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;    
+}
+
+body {
+    background:url("./images/mainimage.jpeg") no-repeat center center fixed;
+    background-size cover; 
+}
+
+navbar {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    left: 45%;
+    margin-top: 30%;
+    align-items: center;
+    position: fixed;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.44) ;
+    opacity: 0.8;
+}
+
+main {
+    float: left;
+    width: 700 px;
+    height: 700px;
+}
+
+aside {
+    float: right;
+    width: 300px;
+    height: 770px;
+}
